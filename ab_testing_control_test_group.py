@@ -103,7 +103,7 @@ df_control["Purchase"].mean()
 
 # This is the optional way to see p-values with for loop.
 for group in list(df["group"].unique()):
-    pvalue = shapiro(df.loc[df["group"] == group, "Purchase"])[1] # shapironun 1. indexteki degeri
+    pvalue = shapiro(df.loc[df["group"] == group, "Purchase"])[1]
     print(group, 'p-value = %.4f' % pvalue)
 
 # Homogeneity of Variance
