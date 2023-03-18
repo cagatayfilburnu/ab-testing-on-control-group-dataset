@@ -63,7 +63,7 @@ df.groupby("group").agg({"Purchase": "mean"})
 3-) Normality Assumption and shapiro test;
 ```ruby
 for group in list(df["group"].unique()):
-    pvalue = shapiro(df.loc[df["group"] == group, "Purchase"])[1] # shapironun 1. indexteki degeri
+    pvalue = shapiro(df.loc[df["group"] == group, "Purchase"])[1]
     print(group, 'p-value = %.4f' % pvalue)
 ```
 
