@@ -10,7 +10,7 @@ bombabomba.com, is testing this new feature. They decided to try and want to do 
 
 The A/B test has been going on for 1 month and bombabomba.com is now waiting to analyze the results of this A/B test. The ultimate success criterion for bombabomba.com is **Purchase**. Therefore, the focus should be on the **Purchase** metric for statistical testing.
 
-A/B Testing is a statistic method about **Hypothesis Tests**. A typical hypothesis test is;
+A/B Testing is a statistical method about **Hypothesis Tests**. A typical hypothesis test is;
 
 ```math
 H_0: M_1 = M_2
